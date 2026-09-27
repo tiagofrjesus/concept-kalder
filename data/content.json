@@ -1,0 +1,254 @@
+{
+  "tagline": "Precision sensing for critical infrastructure",
+  "heroSub": "Kalder Precision provides high-accuracy sensor hardware and integrated monitoring software to ensure operational continuity across demanding industrial environments.",
+  "metrics": [
+    {
+      "value": "0.05",
+      "unit": "µm",
+      "label": "resolution"
+    },
+    {
+      "value": "12",
+      "unit": "ms",
+      "label": "latency"
+    },
+    {
+      "value": "IP67",
+      "unit": "",
+      "label": "ingress protection"
+    },
+    {
+      "value": "26",
+      "unit": "yrs",
+      "label": "of sensor engineering"
+    }
+  ],
+  "products": [
+    {
+      "slug": "kv-vibration",
+      "code": "KV-700",
+      "name": "Triaxial Vibration Sensor",
+      "category": "Vibration",
+      "summary": "High-frequency seismic and mechanical vibration monitoring.",
+      "description": "The KV-700 provides continuous three-axis measurement for rotating machinery. It is designed for deployment in high-interference environments. The unit features a ruggedised stainless steel housing.",
+      "applications": [
+        "Turbine shaft monitoring",
+        "Pump station inspection",
+        "Motor health analysis"
+      ],
+      "specs": [
+        {
+          "label": "Frequency range",
+          "value": "0.5 Hz – 10 kHz"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "100 mV/g"
+        },
+        {
+          "label": "Dynamic range",
+          "value": "120 dB"
+        },
+        {
+          "label": "Output signal",
+          "value": "4-20 mA"
+        },
+        {
+          "label": "Connection type",
+          "value": "M12 connector"
+        },
+        {
+          "label": "Mounting",
+          "value": "Stud or magnet"
+        }
+      ]
+    },
+    {
+      "slug": "kt-thermal",
+      "code": "KT-220",
+      "name": "Infrared Thermal Sensor",
+      "category": "Thermal",
+      "summary": "Non-contact temperature monitoring for high-voltage components.",
+      "description": "This sensor provides real-time thermal profiling without physical contact. It is ideal for identifying hot spots in electrical switchgear. The internal processing unit compensates for ambient temperature fluctuations.",
+      "applications": [
+        "Substation monitoring",
+        "Electrical panel inspection",
+        "Process heat tracking"
+      ],
+      "specs": [
+        {
+          "label": "Temperature range",
+          "value": "-40°C to +450°C"
+        },
+        {
+          "label": "Response time",
+          "value": "< 100 ms"
+        },
+        {
+          "label": "Spectral range",
+          "value": "8–14 µm"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±2°C"
+        },
+        {
+          "label": "Field of view",
+          "value": "15°"
+        },
+        {
+          "label": "Protocol",
+          "value": "Modbus TCP"
+        }
+      ]
+    },
+    {
+      "slug": "kl-laser",
+      "code": "KL-50",
+      "name": "Laser Displacement Sensor",
+      "category": "Laser",
+      "summary": "Sub-micron distance measurement for precision manufacturing.",
+      "description": "The KL-50 uses triangulation technology to measure surface distance. It is suitable for high-speed production lines requiring constant verification. The sensor is resistant to dust and oil mist.",
+      "applications": [
+        "Automated quality control",
+        "Component positioning",
+        "Surface profile analysis"
+      ],
+      "specs": [
+        {
+          "label": "Measuring range",
+          "value": "50 mm – 500 mm"
+        },
+        {
+          "label": "Resolution",
+          "value": "0.1 µm"
+        },
+        {
+          "label": "Sampling rate",
+          "value": "5 kHz"
+        },
+        {
+          "label": "Light source",
+          "value": "Class 2 laser"
+        },
+        {
+          "label": "Interface",
+          "value": "EtherCAT"
+        },
+        {
+          "label": "Repeatability",
+          "value": "±0.5 µm"
+        }
+      ]
+    },
+    {
+      "slug": "kg-gas",
+      "code": "KG-9",
+      "name": "Multi-Gas Detector",
+      "category": "Gas",
+      "summary": "Detection of combustible and toxic gas concentrations.",
+      "description": "Engineered for hazardous zones, the KG-9 monitors multiple gas species simultaneously. It provides rapid response times for critical safety protocols. The unit is fully certified for explosive atmospheres.",
+      "applications": [
+        "Refinery safety monitoring",
+        "Port terminal inspection",
+        "Warehouse leak detection"
+      ],
+      "specs": [
+        {
+          "label": "Gas types",
+          "value": "CH4, H2S, CO"
+        },
+        {
+          "label": "Detection limit",
+          "value": "1 ppm"
+        },
+        {
+          "label": "Alarm output",
+          "value": "Relay + Audible"
+        },
+        {
+          "label": "Power supply",
+          "value": "24V DC"
+        },
+        {
+          "label": "Certification",
+          "value": "ATEX Zone 0"
+        },
+        {
+          "label": "Operating temp",
+          "value": "-20°C to +50°C"
+        }
+      ]
+    }
+  ],
+  "platform": {
+    "name": "Kalder Sense",
+    "heading": "Unified condition monitoring software",
+    "body": "Kalder Sense aggregates data from all Kalder hardware into a single interface. It provides predictive analytics to prevent unplanned downtime.",
+    "points": [
+      "Real-time data visualisation",
+      "Predictive failure modelling",
+      "Automated alert systems",
+      "Historical trend analysis"
+    ]
+  },
+  "industries": [
+    {
+      "slug": "energy",
+      "name": "Energy",
+      "text": "Monitoring rotating assets in wind and thermal plants.",
+      "stat": "450 turbines monitored"
+    },
+    {
+      "slug": "rail",
+      "name": "Rail",
+      "text": "Ensuring track and rolling stock integrity.",
+      "stat": "1,200 km monitored"
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "text": "Optimising production line precision and uptime.",
+      "stat": "85 plants integrated"
+    },
+    {
+      "slug": "ports",
+      "name": "Ports",
+      "text": "Asset management for heavy lifting and maritime infrastructure.",
+      "stat": "12 major terminals"
+    }
+  ],
+  "caseStudy": {
+    "client": "A Western European rail operator",
+    "title": "Reducing rolling stock maintenance intervals through vibration analysis",
+    "challenge": "The client faced rising maintenance costs due to unpredictable component failure. Existing inspection schedules were too frequent and labour-intensive.",
+    "result": "Implementing Kalder Sense enabled a transition to condition-based maintenance. This reduced unscheduled downtime and optimised spare parts inventory.",
+    "figures": [
+      {
+        "value": "22%",
+        "label": "downtime reduction"
+      },
+      {
+        "value": "15%",
+        "label": "cost saving"
+      },
+      {
+        "value": "3×",
+        "label": "longer inspection intervals"
+      }
+    ]
+  },
+  "quality": [
+    "ISO 9001:2015",
+    "ISO 14001:2015",
+    "IECEx",
+    "ATEX",
+    "IEC 61508 SIL 2"
+  ],
+  "contact": {
+    "heading": "Contact our technical team",
+    "body": "Inquire about custom sensor integration and software licensing.",
+    "email": "sales@kalder.example",
+    "address": "Avenida da Indústria 120, 4100-000 Porto, Portugal"
+  }
+}
